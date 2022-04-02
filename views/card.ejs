@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Nursery</title>
+    <link rel="icon" href="logo-2.svg" />
+    <link rel="stylesheet" href="css\style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-1">
+        <a href="/" class="logo"
+          ><i class="fas fa-shopping-basket"></i
+          ><span style="color: #27ae60"> E-</span>nursery</a
+        >
+      </div>
+
+      <div class="header-2">
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+          <a href="/">home</a>
+          <!-- <a href="#product">product</a> -->
+          <a href="/team">Team</a>
+        </nav>
+
+        <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <!-- <a href="#" class="fas fa-heart"></a> -->
+          <!-- <a href="#" class="fas fa-user-circle"></a> -->
+        </div>
+      </div>
+    </header>
+    <div class="plant-card">
+      <div class="img">
+        <img src="<%" ="plant.image" % /> alt= <%= plant.name %>>
+      </div>
+      <div class="content">
+        <div><%= plant.name %></div>
+        <div><%= plant.quantity %></div>
+        <div><%= plant.price %></div>
+      </div>
+    </div>
+  </body>
+</html>
