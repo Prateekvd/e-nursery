@@ -57,6 +57,7 @@ Plants.find({}).exec((err, data) => {
 //     price: 45,
 //     inCart: false,
 //     qty: 0,
+// aaa
 //   },
 //   {
 //     id: 4,
